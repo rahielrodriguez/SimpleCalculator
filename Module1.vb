@@ -1,4 +1,9 @@
 ﻿
+'Rahiel Rodriguez
+'RCET 2265
+'Spring 2024
+'https://github.com/rahielrodriguez/SimpleCalculator.git
+
 Option Explicit On
 Option Strict On
 
