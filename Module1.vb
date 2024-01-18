@@ -25,7 +25,7 @@ Module SimpleCalculator
         ElseIf userInput = "1" Then
             Console.WriteLine(firstNumber + secondNumber)
         ElseIf userInput = "2" Then
-            Console.WriteLine("Multiply")
+            Console.WriteLine(firstNumber * secondNumber)
         Else
             Console.WriteLine($"You entered {userInput}.")
         End If
