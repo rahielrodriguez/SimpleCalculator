@@ -32,9 +32,9 @@ Module SimpleCalculator
         If userInput = "Q" Then
             Console.WriteLine("See you next time!")
         ElseIf userInput = "1" Then
-            Console.WriteLine(firstNumber + secondNumber)
+            Console.WriteLine($"{firstNumber} + {secondNumber} = {firstNumber + secondNumber}")
         ElseIf userInput = "2" Then
-            Console.WriteLine(firstNumber * secondNumber)
+            Console.WriteLine($"{firstNumber} * {secondNumber} = {firstNumber * secondNumber}")
         Else
             Console.WriteLine($"You entered {userInput}.")
         End If
