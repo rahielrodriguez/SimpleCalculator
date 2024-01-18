@@ -9,8 +9,11 @@ Module SimpleCalculator
         Dim secondNumber As Integer
         Dim userInput As String
 
-        firstNumber = 2
-        secondNumber = 5
+        Console.WriteLine("Please, enter first number")
+        firstNumber = Integer.Parse(Console.ReadLine)
+
+        Console.WriteLine("Please, enter second number")
+        secondNumber = Integer.Parse(Console.ReadLine)
 
         Console.WriteLine("Please, choose an option:" & vbNewLine _
             & "1. Add" & vbNewLine _
